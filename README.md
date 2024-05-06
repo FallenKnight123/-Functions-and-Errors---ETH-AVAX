@@ -17,8 +17,9 @@ To interact with the smart contract, you'll need:
 2. Create a new file in Remix IDE and name it `StatementExample.sol`.
 
 3. Copy the content of `StatementExample.sol` from this repository and paste it into the newly created file.
-   
-   // SPDX-License-Identifier: MIT
+
+```solidity
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract StatementExample {
@@ -46,6 +47,7 @@ contract StatementExample {
         balance -= _amount;
     }
 }
+
 
 
 5. Compile the smart contract by clicking on the "Solidity Compiler" tab in Remix IDE and then clicking on the "Compile" button.
