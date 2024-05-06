@@ -47,7 +47,7 @@ contract StatementExample {
         balance -= _amount;
     }
 }
-
+```
 
 
 5. Compile the smart contract by clicking on the "Solidity Compiler" tab in Remix IDE and then clicking on the "Compile" button.
